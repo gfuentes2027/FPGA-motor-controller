@@ -1,0 +1,229 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gfuen/OneDrive/Desktop/Fall 2024/ESET 219 - Digital Electronics/Project/simulation/qsim
+Ehard_block
+Z1 w1733165545
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
+!i122 20
+R0
+Z8 8motorproject.vho
+Z9 Fmotorproject.vho
+l0
+L35 1
+Vhj[i;a0dD85B`o1JPT^cg2
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1733165547
+!i10b 1
+Z12 !s108 1733165547.000000
+Z13 !s90 -work|work|motorproject.vho|
+Z14 !s107 motorproject.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 hj[i;a0dD85B`o1JPT^cg2
+!i122 20
+l76
+L54 28
+Va5ClDYec`9chO`Ne0M1NL2
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emotorcontroller
+R1
+R3
+R7
+R2
+Z17 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R4
+R5
+R6
+Z18 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 20
+R0
+R8
+R9
+l0
+Z19 L91 1
+VCca@e[42VFfAU`^n<4BRN0
+!s100 ^YgefilK@c>o@F@>SKNYf2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+DEx4 work 15 motorcontroller 0 22 Cca@e[42VFfAU`^n<4BRN0
+!i122 20
+l380
+L141 3316
+Vi3kD7o8FN@P6ChX1`ELPc1
+!s100 ;WYZQ3gzcj0h]3B8Bbf@W3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emotorcontroller_vhd_vec_tst
+Z20 w1733165543
+R5
+R6
+!i122 21
+R0
+Z21 8Waveform1.vwf.vht
+Z22 FWaveform1.vwf.vht
+l0
+Z23 L32 1
+VG;zQ:T;j]Z]l]0bVm<?G72
+!s100 01Pg_3cYaPo]VSUcnkfXe1
+R10
+32
+Z24 !s110 1733165548
+!i10b 1
+R12
+Z25 !s90 -work|work|Waveform1.vwf.vht|
+Z26 !s107 Waveform1.vwf.vht|
+!i113 1
+R15
+R16
+Amotorcontroller_arch
+R5
+R6
+Z27 DEx4 work 27 motorcontroller_vhd_vec_tst 0 22 G;zQ:T;j]Z]l]0bVm<?G72
+!i122 21
+l83
+L34 131
+VD7M^67KG5LDME]Kj<E4AV0
+!s100 ^mjBST^j10i4oe5f3^AHG2
+R10
+32
+R24
+!i10b 1
+R12
+R25
+R26
+!i113 1
+R15
+R16
+Epwm
+Z28 w1733078583
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+!i122 0
+R0
+R8
+R9
+l0
+R19
+V@ze:8`^Q8?WSBYEOV37_=0
+!s100 beo]S2?9<Y1m:Z?ij>CPZ3
+R10
+32
+Z29 !s110 1733078587
+!i10b 1
+Z30 !s108 1733078586.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+DEx4 work 3 pwm 0 22 @ze:8`^Q8?WSBYEOV37_=0
+!i122 0
+l172
+L113 562
+VAX<82;d1PjQ2@9TzBOTk33
+!s100 z]TF[h5EZ>WYXD3>_YN0d2
+R10
+32
+R29
+!i10b 1
+R30
+R13
+R14
+!i113 1
+R15
+R16
+Epwm_vhd_vec_tst
+w1733078582
+R5
+R6
+!i122 1
+R0
+8Waveform.vwf.vht
+FWaveform.vwf.vht
+l0
+R23
+Vzl8MCDgW4ZHEQ>DfNSULC1
+!s100 `R;N0S^ikF:Un]<i4RK1U0
+R10
+32
+R29
+!i10b 1
+!s108 1733078587.000000
+!s90 -work|work|Waveform.vwf.vht|
+!s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16

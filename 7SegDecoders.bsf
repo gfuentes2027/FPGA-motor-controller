@@ -1,0 +1,184 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 152 304)
+	(text "7SegDecoders" (rect 5 0 131 23)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 263 35 284)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "L0" (rect 0 0 22 23)(font "Intel Clear" (font_size 8)))
+		(text "L0" (rect 21 27 43 50)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "L1" (rect 0 0 22 23)(font "Intel Clear" (font_size 8)))
+		(text "L1" (rect 21 43 43 66)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "L2" (rect 0 0 22 23)(font "Intel Clear" (font_size 8)))
+		(text "L2" (rect 21 59 43 82)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "L3" (rect 0 0 22 23)(font "Intel Clear" (font_size 8)))
+		(text "L3" (rect 21 75 43 98)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "R0" (rect 0 0 23 23)(font "Intel Clear" (font_size 8)))
+		(text "R0" (rect 21 91 44 114)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "R1" (rect 0 0 23 23)(font "Intel Clear" (font_size 8)))
+		(text "R1" (rect 21 107 44 130)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "R2" (rect 0 0 23 23)(font "Intel Clear" (font_size 8)))
+		(text "R2" (rect 21 123 44 146)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "R3" (rect 0 0 23 23)(font "Intel Clear" (font_size 8)))
+		(text "R3" (rect 21 139 44 162)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "LSEG0" (rect 0 0 57 23)(font "Intel Clear" (font_size 8)))
+		(text "LSEG0" (rect 58 27 115 50)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "LSEG1" (rect 0 0 57 23)(font "Intel Clear" (font_size 8)))
+		(text "LSEG1" (rect 58 43 115 66)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 48)(pt 120 48))
+	)
+	(port
+		(pt 136 64)
+		(output)
+		(text "LSEG2" (rect 0 0 57 23)(font "Intel Clear" (font_size 8)))
+		(text "LSEG2" (rect 58 59 115 82)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 64)(pt 120 64))
+	)
+	(port
+		(pt 136 80)
+		(output)
+		(text "LSEG3" (rect 0 0 57 23)(font "Intel Clear" (font_size 8)))
+		(text "LSEG3" (rect 58 75 115 98)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 80)(pt 120 80))
+	)
+	(port
+		(pt 136 96)
+		(output)
+		(text "LSEG4" (rect 0 0 57 23)(font "Intel Clear" (font_size 8)))
+		(text "LSEG4" (rect 58 91 115 114)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 96)(pt 120 96))
+	)
+	(port
+		(pt 136 112)
+		(output)
+		(text "LSEG5" (rect 0 0 57 23)(font "Intel Clear" (font_size 8)))
+		(text "LSEG5" (rect 58 107 115 130)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 112)(pt 120 112))
+	)
+	(port
+		(pt 136 128)
+		(output)
+		(text "LSEG6" (rect 0 0 57 23)(font "Intel Clear" (font_size 8)))
+		(text "LSEG6" (rect 58 123 115 146)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 128)(pt 120 128))
+	)
+	(port
+		(pt 136 144)
+		(output)
+		(text "RSEG0" (rect 0 0 59 23)(font "Intel Clear" (font_size 8)))
+		(text "RSEG0" (rect 56 139 115 162)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 144)(pt 120 144))
+	)
+	(port
+		(pt 136 160)
+		(output)
+		(text "RSEG1" (rect 0 0 59 23)(font "Intel Clear" (font_size 8)))
+		(text "RSEG1" (rect 56 155 115 178)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 160)(pt 120 160))
+	)
+	(port
+		(pt 136 176)
+		(output)
+		(text "RSEG2" (rect 0 0 59 23)(font "Intel Clear" (font_size 8)))
+		(text "RSEG2" (rect 56 171 115 194)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 176)(pt 120 176))
+	)
+	(port
+		(pt 136 192)
+		(output)
+		(text "RSEG3" (rect 0 0 59 23)(font "Intel Clear" (font_size 8)))
+		(text "RSEG3" (rect 56 187 115 210)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 192)(pt 120 192))
+	)
+	(port
+		(pt 136 208)
+		(output)
+		(text "RSEG4" (rect 0 0 59 23)(font "Intel Clear" (font_size 8)))
+		(text "RSEG4" (rect 56 203 115 226)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 208)(pt 120 208))
+	)
+	(port
+		(pt 136 224)
+		(output)
+		(text "RSEG5" (rect 0 0 59 23)(font "Intel Clear" (font_size 8)))
+		(text "RSEG5" (rect 56 219 115 242)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 224)(pt 120 224))
+	)
+	(port
+		(pt 136 240)
+		(output)
+		(text "RSEG6" (rect 0 0 59 23)(font "Intel Clear" (font_size 8)))
+		(text "RSEG6" (rect 56 235 115 258)(font "Intel Clear" (font_size 8)))
+		(line (pt 136 240)(pt 120 240))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 272))
+	)
+)
